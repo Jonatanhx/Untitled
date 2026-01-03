@@ -1482,38 +1482,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-router/express@npm:^7.11.0":
-  version: 7.11.0
-  resolution: "@react-router/express@npm:7.11.0"
-  dependencies:
-    "@react-router/node": "npm:7.11.0"
-  peerDependencies:
-    express: ^4.17.1 || ^5
-    react-router: 7.11.0
-    typescript: ^5.1.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 10c0/a97e51f440b1cb7d6fc3e0f83761c4832452fa2b5d3897cc9ff90101fd2e4823970ee9e52d6eca9174ddca51c074e48255f6e5ff7322374effc4923fda46d722
-  languageName: node
-  linkType: hard
-
-"@react-router/fs-routes@npm:^7.11.0":
-  version: 7.11.0
-  resolution: "@react-router/fs-routes@npm:7.11.0"
-  dependencies:
-    minimatch: "npm:^9.0.0"
-  peerDependencies:
-    "@react-router/dev": ^7.11.0
-    typescript: ^5.1.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 10c0/367001dfa5700ba367dab243f352bde09db882fccc4fc857e848a19eb5ccc51e90248eedf82705af78324d6b9670dab3b210cb0a33f1cabf6487df2b4af80ced
-  languageName: node
-  linkType: hard
-
-"@react-router/node@npm:7.11.0, @react-router/node@npm:^7.11.0":
+"@react-router/node@npm:7.11.0":
   version: 7.11.0
   resolution: "@react-router/node@npm:7.11.0"
   dependencies:
@@ -2769,13 +2738,6 @@ __metadata:
   version: 2.0.0
   resolution: "convert-source-map@npm:2.0.0"
   checksum: 10c0/8f2f7a27a1a011cc6cc88cc4da2d7d0cfa5ee0369508baae3d98c260bb3ac520691464e5bbe4ae7cdf09860c1d69ecc6f70c63c6e7c7f7e3f18ec08484dc7d9b
-  languageName: node
-  linkType: hard
-
-"cookie@npm:^1.0.1":
-  version: 1.1.1
-  resolution: "cookie@npm:1.1.1"
-  checksum: 10c0/79c4ddc0fcad9c4f045f826f42edf54bcc921a29586a4558b0898277fa89fb47be95bc384c2253f493af7b29500c830da28341274527328f18eba9f58afa112c
   languageName: node
   linkType: hard
 
@@ -4828,7 +4790,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^9.0.0, minimatch@npm:^9.0.4":
+"minimatch@npm:^9.0.4":
   version: 9.0.5
   resolution: "minimatch@npm:9.0.5"
   dependencies:
@@ -4936,9 +4898,6 @@ __metadata:
     "@prisma/adapter-pg": "npm:^7.2.0"
     "@prisma/client": "npm:^7.2.0"
     "@react-router/dev": "npm:^7.11.0"
-    "@react-router/express": "npm:^7.11.0"
-    "@react-router/fs-routes": "npm:^7.11.0"
-    "@react-router/node": "npm:^7.11.0"
     "@tailwindcss/postcss": "npm:^4"
     "@tanstack/react-query": "npm:^5.90.16"
     "@trpc/client": "npm:^11.8.1"
@@ -4959,7 +4918,6 @@ __metadata:
     prisma: "npm:^7.2.0"
     react: "npm:19.2.3"
     react-dom: "npm:19.2.3"
-    react-router: "npm:^7.11.0"
     tailwindcss: "npm:^4"
     typescript: "npm:^5"
     zod: "npm:^4.3.4"
@@ -5777,22 +5735,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:^7.11.0":
-  version: 7.11.0
-  resolution: "react-router@npm:7.11.0"
-  dependencies:
-    cookie: "npm:^1.0.1"
-    set-cookie-parser: "npm:^2.6.0"
-  peerDependencies:
-    react: ">=18"
-    react-dom: ">=18"
-  peerDependenciesMeta:
-    react-dom:
-      optional: true
-  checksum: 10c0/eb3693d63d1c52221a3449de5db170e2fa9e00536b011998b17f8a277f8b5e89b752d104dbbeb4ee3d474f8e4570167db00293b4510f63277e5e6658c5dab22b
-  languageName: node
-  linkType: hard
-
 "react-style-singleton@npm:^2.2.2, react-style-singleton@npm:^2.2.3":
   version: 2.2.3
   resolution: "react-style-singleton@npm:2.2.3"
@@ -6122,13 +6064,6 @@ __metadata:
   version: 0.0.5
   resolution: "seq-queue@npm:0.0.5"
   checksum: 10c0/ec870fc392f0e6e99ec0e551c3041c1a66144d1580efabae7358e572de127b0ad2f844c95a4861d2e6203f836adea4c8196345b37bed55331ead8f22d99ac84c
-  languageName: node
-  linkType: hard
-
-"set-cookie-parser@npm:^2.6.0":
-  version: 2.7.2
-  resolution: "set-cookie-parser@npm:2.7.2"
-  checksum: 10c0/4381a9eb7ee951dfe393fe7aacf76b9a3b4e93a684d2162ab35594fa4053cc82a4d7d7582bf397718012c9adcf839b8cd8f57c6c42901ea9effe33c752da4a45
   languageName: node
   linkType: hard
 
